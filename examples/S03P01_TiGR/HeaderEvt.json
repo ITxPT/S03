@@ -1,0 +1,27 @@
+{
+    "Header": {
+        "CODE": "EC10",
+        "DST": 240636,
+        "EVTDATE": 1492714346,
+        "GPSInfo": {
+            "ALT": 260,
+            "DOP": 25,
+            "GNSSType": "GLONASS",
+            "HEAD": 0,
+            "LAT": 2932530,
+            "LON": 155604,
+            "NUMSAT": 7
+        },
+        "ID": 4,
+        "PROG": 1345,
+        "SENDDATE": 1492714386,
+        "SERVERNAME": "ABC",
+        "SRVDATE": 1492714366,
+        "TIMEZONE": "UTC+01:00",
+        "TX": 3,
+        "TYPE": "HEADER_ONLY",
+        "VERS": "2.1.0",
+        "VIN": "VIN00000000000001"
+    },
+    "_comment": "ITxPT S03P01v2.1.0 TiGR Protocol - Header only event JSON Example"
+}

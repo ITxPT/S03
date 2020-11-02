@@ -1,0 +1,212 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "title": "The Root Schema of Header only event",
+  "description": "ITxPT S03P01v2.1.0 TiGR Protocol - Header only event JSON Schema",
+  "required": [
+    "Header"
+  ],  
+  "properties": {
+    "Header": {
+      "$id": "#/properties/Header",
+      "type": "object",
+      "title": "The Header Schema",
+      "required": [
+        "CODE",
+        "DST",
+        "EVTDATE",
+        "GPSInfo",
+        "ID",
+        "PROG",
+        "SENDDATE",
+        "SERVERNAME",
+        "SRVDATE",
+        "TX",
+        "TYPE",
+        "VIN"
+      ],
+      "properties": {
+        "CODE": {
+          "$id": "#/properties/Header/properties/CODE",
+          "type": "string",
+          "title": "The Code Schema",
+          "default": "",
+          "examples": [
+            "EC10"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "DST": {
+          "$id": "#/properties/Header/properties/DST",
+          "type": "integer",
+          "title": "The Dst Schema",
+          "examples": [
+            240636
+          ]
+        },
+        "EVTDATE": {
+          "$id": "#/properties/Header/properties/EVTDATE",
+          "type": "integer",
+          "title": "The Evtdate Schema",
+          "examples": [
+            1492714346
+          ]
+        },
+        "GPSInfo": {
+          "$id": "#/properties/Header/properties/GPSInfo",
+          "type": "object",
+          "title": "The Gpsinfo Schema",
+          "required": [
+            "ALT",
+            "DOP",
+            "LAT",
+            "LON",            
+          ],
+          "properties": {
+            "ALT": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/ALT",
+              "type": "integer",
+              "title": "The Alt Schema",
+              "examples": [
+                260
+              ]
+            },
+            "DOP": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/DOP",
+              "type": "integer",
+              "title": "The Dop Schema",
+              "examples": [
+                25
+              ]
+            },
+            "GNSSType": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/GNSSType",
+              "type": "string",
+              "title": "The Gnsstype Schema",
+              "enum": ["GPS", "GLONASS", "GALILEO", "BEIDOU", "IRNSS", "Other"],
+              "examples": [
+                "GLONASS"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "HEAD": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/HEAD",
+              "type": "integer",
+              "title": "The Head Schema",
+              "examples": [
+                0
+              ]
+            },
+            "LAT": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/LAT",
+              "type": "integer",
+              "title": "The Lat Schema",
+              "examples": [
+                2932530
+              ]
+            },
+            "LON": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/LON",
+              "type": "integer",
+              "title": "The Lon Schema",
+              "examples": [
+                155604
+              ]
+            },
+            "NUMSAT": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/NUMSAT",
+              "type": "integer",
+              "title": "The Numsat Schema",
+              "examples": [
+                7
+              ]
+            }
+          }
+        },
+        "ID": {
+          "$id": "#/properties/Header/properties/ID",
+          "type": "integer",
+          "title": "The Id Schema",
+          "examples": [
+            4
+          ]
+        },
+        "PROG": {
+          "$id": "#/properties/Header/properties/PROG",
+          "type": "integer",
+          "title": "The Prog Schema",
+          "examples": [
+            1345
+          ]
+        },
+        "SENDDATE": {
+          "$id": "#/properties/Header/properties/SENDDATE",
+          "type": "integer",
+          "title": "The Senddate Schema",
+          "examples": [
+            1492714386
+          ]
+        },
+        "SERVERNAME": {
+          "$id": "#/properties/Header/properties/SERVERNAME",
+          "type": "string",
+          "title": "The Servername Schema",
+          "examples": [
+            "ABC"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "SRVDATE": {
+          "$id": "#/properties/Header/properties/SRVDATE",
+          "type": "integer",
+          "title": "The Srvdate Schema",
+          "examples": [
+            1492714366
+          ]
+        },
+        "TIMEZONE": {
+          "$id": "#/properties/Header/properties/TIMEZONE",
+          "type": "string",
+          "title": "The Timezone Schema",
+          "examples": [
+            "UTC+01:00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "TX": {
+          "$id": "#/properties/Header/properties/TX",
+          "type": "integer",
+          "title": "The Tx Schema",
+          "enum": [0, 1, 3],
+          "examples": [
+            3
+          ]
+        },
+        "TYPE": {
+          "$id": "#/properties/Header/properties/TYPE",
+          "type": "string",
+          "value": "HEADER_ONLY",
+          "pattern": "^(.*)$"
+        },
+        "VIN": {
+          "$id": "#/properties/Header/properties/VIN",
+          "type": "string",
+          "title": "The Vin Schema",
+          "examples": [
+            "VIN00000000000001"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "VERS": {
+          "$id": "#/properties/Header/properties/VERS",
+          "type": "string",
+          "title": "The Version Schema",
+          "examples": [
+            "2.1.0"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}

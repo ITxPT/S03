@@ -1,0 +1,731 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "title": "The Root Schema event ON ",
+  "description": "ITxPT S03P01v2.1.0 TiGR Protocol - Event ON JSON Schema",
+  "required": [
+    "EvtON",
+    "Extra",
+    "Header"
+  ],
+  "properties": {
+    "EvtON": {
+      "$id": "#/properties/EvtON",
+      "type": "object",
+      "title": "The Evton Schema",
+      "required": [
+        "ACP",
+        "ACS",
+        "APU",
+        "BRKSTS",
+        "CAC",
+        "CHS",
+        "CMT",
+        "CPP",
+        "CSE",
+        "DCC",
+        "EEC",
+        "EET",
+        "EPC",
+        "EXT",
+        "GEAR",
+        "HBT",
+        "HEP",
+        "ITT",
+        "IVT",
+        "LBT",
+        "LRO",
+        "PAC",
+        "PBR",
+        "RPM",
+        "RPT",
+        "SMX",
+        "SOC",
+        "SPC",
+        "STP",
+        "SWA",
+        "TAM",
+        "TBC",
+        "TBV",
+        "TCA",
+        "TMX",
+        "TRM",
+        "TTID",
+        "TTSTS",
+        "VAC",
+        "VB",
+        "VHM",
+        "VSE"
+      ],
+      "properties": {
+        "ACP": {
+          "$id": "#/properties/EvtON/properties/ACP",
+          "type": "integer",
+          "title": "The Acp Schema",
+          "examples": [
+            4
+          ]
+        },
+        "ACS": {
+          "$id": "#/properties/EvtON/properties/ACS",
+          "type": "integer",
+          "title": "The Acs Schema",
+          "examples": [
+            1
+          ]
+        },
+        "APU": {
+          "$id": "#/properties/EvtON/properties/APU",
+          "type": "integer",
+          "title": "The Apu Schema",
+          "examples": [
+            1
+          ]
+        },
+        "BRKSTS": {
+          "$id": "#/properties/EvtON/properties/BRKSTS",
+          "type": "integer",
+          "title": "The Brksts Schema",
+          "examples": [
+            0
+          ]
+        },
+        "CAC": {
+          "$id": "#/properties/EvtON/properties/CAC",
+          "type": "integer",
+          "title": "The Cac Schema",
+          "examples": [
+            2
+          ]
+        },
+        "CHS": {
+          "$id": "#/properties/EvtON/properties/CHS",
+          "type": "integer",
+          "title": "The Chs Schema",
+          "examples": [
+            4
+          ]
+        },
+        "CMT": {
+          "$id": "#/properties/EvtON/properties/CMT",
+          "type": "integer",
+          "title": "The Cmt Schema",
+          "examples": [
+            90
+          ]
+        },
+        "CPP": {
+          "$id": "#/properties/EvtON/properties/CPP",
+          "type": "integer",
+          "title": "The Cpp Schema",
+          "examples": [
+            11
+          ]
+        },
+        "CSE": {
+          "$id": "#/properties/EvtON/properties/CSE",
+          "type": "integer",
+          "title": "The Cse Schema",
+          "examples": [
+            3
+          ]
+        },
+        "DCC": {
+          "$id": "#/properties/EvtON/properties/DCC",
+          "type": "integer",
+          "title": "The Dcc Schema",
+          "examples": [
+            3
+          ]
+        },
+        "EEC": {
+          "$id": "#/properties/EvtON/properties/EEC",
+          "type": "integer",
+          "title": "The Eec Schema",
+          "examples": [
+            15
+          ]
+        },
+        "EET": {
+          "$id": "#/properties/EvtON/properties/EET",
+          "type": "integer",
+          "title": "The Eet Schema",
+          "examples": [
+            1100
+          ]
+        },
+        "EPC": {
+          "$id": "#/properties/EvtON/properties/EPC",
+          "type": "integer",
+          "title": "The Epc Schema",
+          "examples": [
+            50
+          ]
+        },
+        "EXT": {
+          "$id": "#/properties/EvtON/properties/EXT",
+          "type": "integer",
+          "title": "The Ext Schema",
+          "examples": [
+            25
+          ]
+        },
+        "GEAR": {
+          "$id": "#/properties/EvtON/properties/GEAR",
+          "type": "integer",
+          "title": "The Gear Schema",
+          "examples": [
+            1
+          ]
+        },
+        "HBT": {
+          "$id": "#/properties/EvtON/properties/HBT",
+          "type": "integer",
+          "title": "The Hbt Schema",
+          "examples": [
+            35
+          ]
+        },
+        "HEP": {
+          "$id": "#/properties/EvtON/properties/HEP",
+          "type": "integer",
+          "title": "The Hep Schema",
+          "examples": [
+            0
+          ]
+        },
+        "ITT": {
+          "$id": "#/properties/EvtON/properties/ITT",
+          "type": "integer",
+          "title": "The Itt Schema",
+          "examples": [
+            28
+          ]
+        },
+        "IVT": {
+          "$id": "#/properties/EvtON/properties/IVT",
+          "type": "integer",
+          "title": "The Ivt Schema",
+          "examples": [
+            27
+          ]
+        },
+        "LBT": {
+          "$id": "#/properties/EvtON/properties/LBT",
+          "type": "integer",
+          "title": "The Lbt Schema",
+          "examples": [
+            30
+          ]
+        },
+        "LRO": {
+          "$id": "#/properties/EvtON/properties/LRO",
+          "type": "integer",
+          "title": "The Lro Schema",
+          "examples": [
+            2147483647
+          ]
+        },
+        "PAC": {
+          "$id": "#/properties/EvtON/properties/PAC",
+          "type": "integer",
+          "title": "The Pac Schema",
+          "examples": [
+            26
+          ]
+        },
+        "PBR": {
+          "$id": "#/properties/EvtON/properties/PBR",
+          "type": "integer",
+          "title": "The Pbr Schema",
+          "examples": [
+            0
+          ]
+        },
+        "RPM": {
+          "$id": "#/properties/EvtON/properties/RPM",
+          "type": "integer",
+          "title": "The Rpm Schema",
+          "examples": [
+            742
+          ]
+        },
+        "RPT": {
+          "$id": "#/properties/EvtON/properties/RPT",
+          "type": "integer",
+          "title": "The Rpt Schema",
+          "examples": [
+            0
+          ]
+        },
+        "SMX": {
+          "$id": "#/properties/EvtON/properties/SMX",
+          "type": "integer",
+          "title": "The Smx Schema",
+          "examples": [
+            34
+          ]
+        },
+        "SOC": {
+          "$id": "#/properties/EvtON/properties/SOC",
+          "type": "integer",
+          "title": "The Soc Schema",
+          "examples": [
+            47
+          ]
+        },
+        "SPC": {
+          "$id": "#/properties/EvtON/properties/SPC",
+          "type": "integer",
+          "title": "The Spc Schema",
+          "examples": [
+            2
+          ]
+        },
+        "STP": {
+          "$id": "#/properties/EvtON/properties/STP",
+          "type": "integer",
+          "title": "The Stp Schema",
+          "examples": [
+            0
+          ]
+        },
+        "SWA": {
+          "$id": "#/properties/EvtON/properties/SWA",
+          "type": "integer",
+          "title": "The Swa Schema",
+          "examples": [
+            53
+          ]
+        },
+        "TAM": {
+          "$id": "#/properties/EvtON/properties/TAM",
+          "type": "integer",
+          "title": "The Tam Schema",
+          "examples": [
+            12051
+          ]
+        },
+        "TBC": {
+          "$id": "#/properties/EvtON/properties/TBC",
+          "type": "integer",
+          "title": "The Tbc Schema",
+          "examples": [
+            16
+          ]
+        },
+        "TBV": {
+          "$id": "#/properties/EvtON/properties/TBV",
+          "type": "integer",
+          "title": "The Tbv Schema",
+          "examples": [
+            741
+          ]
+        },
+        "TCA": {
+          "$id": "#/properties/EvtON/properties/TCA",
+          "type": "integer",
+          "title": "The Tca Schema",
+          "examples": [
+            14002
+          ]
+        },
+        "TMX": {
+          "$id": "#/properties/EvtON/properties/TMX",
+          "type": "integer",
+          "title": "The Tmx Schema",
+          "examples": [
+            54
+          ]
+        },
+        "TRM": {
+          "$id": "#/properties/EvtON/properties/TRM",
+          "type": "integer",
+          "title": "The Trm Schema",
+          "examples": [
+            41
+          ]
+        },
+        "TTID": {
+          "$id": "#/properties/EvtON/properties/TTID",
+          "type": "integer",
+          "title": "The Ttid Schema",
+          "examples": [
+            2147483647
+          ]
+        },
+        "TTSTS": {
+          "$id": "#/properties/EvtON/properties/TTSTS",
+          "type": "integer",
+          "title": "The Ttsts Schema",
+          "examples": [
+            2147483647
+          ]
+        },
+        "VAC": {
+          "$id": "#/properties/EvtON/properties/VAC",
+          "type": "integer",
+          "title": "The Vac Schema",
+          "examples": [
+            24
+          ]
+        },
+        "VB": {
+          "$id": "#/properties/EvtON/properties/VB",
+          "type": "integer",
+          "title": "The Vb Schema",
+          "examples": [
+            264
+          ]
+        },
+        "VHM": {
+          "$id": "#/properties/EvtON/properties/VHM",
+          "type": "integer",
+          "title": "The Vhm Schema",
+          "examples": [
+            2
+          ]
+        },
+        "VSE": {
+          "$id": "#/properties/EvtON/properties/VSE",
+          "type": "integer",
+          "title": "The Vse Schema",
+          "examples": [
+            41
+          ]
+        }
+      }
+    },
+    "Extra": {
+      "$id": "#/properties/Extra",
+      "type": "object",
+      "title": "The Extra Schema",
+      "required": [
+        "AIRCIRCID",
+        "ALTERNATORID",
+        "CELLID",
+        "CodeVMC",
+        "DEVID",
+        "DEVTYP",
+        "DOORID",
+        "DTC_FMI",
+        "DTC_SPN",
+        "DTC_SRC",
+        "DTC_VRT",
+        "INFOADD",
+        "WHEELID",
+        "WORNPERC"
+      ],
+      "properties": {
+        "AIRCIRCID": {
+          "$id": "#/properties/Extra/properties/AIRCIRCID",
+          "type": "string",
+          "title": "The Aircircid Schema",
+          "examples": [
+            "2"
+          ]
+        },
+        "ALTERNATORID": {
+          "$id": "#/properties/Extra/properties/ALTERNATORID",
+          "type": "string",
+          "title": "The Alternatorid Schema",
+          "examples": [
+            "2"
+          ]
+        },
+        "CELLID": {
+          "$id": "#/properties/Extra/properties/CELLID",
+          "type": "string",
+          "title": "The Cellid Schema",
+          "examples": [
+            "NULL"
+          ]
+        },
+        "CodeVMC": {
+          "$id": "#/properties/Extra/properties/CodeVMC",
+          "type": "string",
+          "title": "The Codevmc Schema",
+          "examples": [
+            "34569"
+          ]
+        },
+        "DEVID": {
+          "$id": "#/properties/Extra/properties/DEVID",
+          "type": "string",
+          "title": "The Devid Schema",
+          "examples": [
+            "1"
+          ]
+        },
+        "DEVTYP": {
+          "$id": "#/properties/Extra/properties/DEVTYP",
+          "type": "string",
+          "title": "The Devtyp Schema",
+          "examples": [
+            "ENGINE"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "DOORID": {
+          "$id": "#/properties/Extra/properties/DOORID",
+          "type": "string",
+          "title": "The Doorid Schema",
+          "examples": [
+            "2"
+          ]
+        },
+        "DTC_FMI": {
+          "$id": "#/properties/Extra/properties/DTC_FMI",
+          "type": "string",
+          "title": "The Dtc_fmi Schema",
+          "examples": [
+            "2"
+          ]
+        },
+        "DTC_SPN": {
+          "$id": "#/properties/Extra/properties/DTC_SPN",
+          "type": "string",
+          "title": "The Dtc_spn Schema",
+          "examples": [
+            "2"
+          ]
+        },
+        "DTC_SRC": {
+          "$id": "#/properties/Extra/properties/DTC_SRC",
+          "type": "string",
+          "title": "The Dtc_src Schema",
+          "examples": [
+            "2"
+          ]
+        },
+        "DTC_VRT": {
+          "$id": "#/properties/Extra/properties/DTC_VRT",
+          "type": "string",
+          "title": "The Dtc_vrt Schema",
+          "examples": [
+            "2"
+          ]
+        },
+        "INFOADD": {
+          "$id": "#/properties/Extra/properties/INFOADD",
+          "type": "string",
+          "title": "The Infoadd Schema",
+          "examples": [
+            "ENGINE FAULT"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "WHEELID": {
+          "$id": "#/properties/Extra/properties/WHEELID",
+          "type": "string",
+          "title": "The Wheelid Schema",
+          "examples": [
+            "2"
+          ]
+        },
+        "WORNPERC": {
+          "$id": "#/properties/Extra/properties/WORNPERC",
+          "type": "string",
+          "title": "The Wornperc Schema",
+          "examples": [
+            "2"
+          ]
+        }
+      }
+    },
+    "Header": {
+      "$id": "#/properties/Header",
+      "type": "object",
+      "title": "The Header Schema",
+      "required": [
+        "CODE",
+        "DST",
+        "EVTDATE",
+        "GPSInfo",
+        "ID",
+        "PROG",
+        "SENDDATE",
+        "SERVERNAME",
+        "SRVDATE",
+        "TX",
+        "TYPE",
+        "VIN"
+      ],
+      "properties": {
+        "CODE": {
+          "$id": "#/properties/Header/properties/CODE",
+          "type": "string",
+          "title": "The Code Schema",
+          "examples": [
+            "EC10"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "DST": {
+          "$id": "#/properties/Header/properties/DST",
+          "type": "integer",
+          "title": "The Dst Schema",
+          "examples": [
+            240636
+          ]
+        },
+        "EVTDATE": {
+          "$id": "#/properties/Header/properties/EVTDATE",
+          "type": "integer",
+          "title": "The Evtdate Schema",
+          "examples": [
+            1492714346
+          ]
+        },
+        "GPSInfo": {
+          "$id": "#/properties/Header/properties/GPSInfo",
+          "type": "object",
+          "title": "The Gpsinfo Schema",
+          "required": [
+            "ALT",
+            "DOP",            
+            "LAT",
+            "LON",  
+          ],
+          "properties": {
+            "ALT": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/ALT",
+              "type": "integer",
+              "title": "The Alt Schema",
+              "examples": [
+                260
+              ]
+            },
+            "DOP": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/DOP",
+              "type": "integer",
+              "title": "The Dop Schema",
+              "examples": [
+                25
+              ]
+            },
+            "GNSSType": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/GNSSType",
+              "type": "string",
+              "title": "The Gnsstype Schema",
+              "enum": ["GPS", "GLONASS", "GALILEO", "BEIDOU", "IRNSS", "Other"],
+              "examples": [
+                "GLONASS"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "HEAD": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/HEAD",
+              "type": "integer",
+              "title": "The Head Schema",
+              "examples": [
+                0
+              ]
+            },
+            "LAT": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/LAT",
+              "type": "integer",
+              "title": "The Lat Schema",
+              "examples": [
+                2932530
+              ]
+            },
+            "LON": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/LON",
+              "type": "integer",
+              "title": "The Lon Schema",
+              "examples": [
+                155604
+              ]
+            },
+            "NUMSAT": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/NUMSAT",
+              "type": "integer",
+              "title": "The Numsat Schema",
+              "examples": [
+                7
+              ]
+            }
+          }
+        },
+        "ID": {
+          "$id": "#/properties/Header/properties/ID",
+          "type": "integer",
+          "title": "The Id Schema",
+          "examples": [
+            4
+          ]
+        },
+        "PROG": {
+          "$id": "#/properties/Header/properties/PROG",
+          "type": "integer",
+          "title": "The Prog Schema",
+          "examples": [
+            1345
+          ]
+        },
+        "SENDDATE": {
+          "$id": "#/properties/Header/properties/SENDDATE",
+          "type": "integer",
+          "title": "The Senddate Schema",
+          "examples": [
+            1492714386
+          ]
+        },
+        "SERVERNAME": {
+          "$id": "#/properties/Header/properties/SERVERNAME",
+          "type": "string",
+          "title": "The Servername Schema",
+          "examples": [
+            "ABC"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "SRVDATE": {
+          "$id": "#/properties/Header/properties/SRVDATE",
+          "type": "integer",
+          "title": "The Srvdate Schema",
+          "examples": [
+            1492714366
+          ]
+        },
+         "TIMEZONE": {
+          "$id": "#/properties/Header/properties/TIMEZONE",
+          "type": "string",
+          "title": "The Timezone Schema",
+          "examples": [
+            "UTC+01:00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "TX": {
+          "$id": "#/properties/Header/properties/TX",
+          "type": "integer",
+          "title": "The Tx Schema",
+          "enum": [0, 1, 3],
+          "examples": [
+            3
+          ]
+        },
+        "TYPE": {
+          "$id": "#/properties/Header/properties/TYPE",
+          "type": "string",
+          "title": "The Type Schema",
+          "examples": [
+            "HEADER_ONLY"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "VIN": {
+          "$id": "#/properties/Header/properties/VIN",
+          "type": "string",
+          "title": "The Vin Schema",
+          "examples": [
+            "VIN00000000000001"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}

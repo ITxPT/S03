@@ -1,0 +1,522 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "title": "The Root Schema of Journey event",
+  "description": "ITxPT S03P01v2.1.0 TiGR Protocol - Journey event JSON Schema",
+  "required": [
+    "EvtLT",
+    "Header"
+  ],
+  "properties": {
+    "EvtLT": {
+      "$id": "#/properties/EvtLT",
+      "type": "object",
+      "title": "The Evtlt Schema",
+      "required": [
+        "ADBL",
+        "MBD",
+        "MBT",
+        "MCE",
+        "MDE",
+        "MDO",
+        "MEE",
+        "MEO",
+        "MFU",
+        "MKO",
+        "MPE",
+        "MRE",
+        "MSOC",
+        "MVDH",
+        "TCE",
+        "TD2C",
+        "TD3C",
+        "TDE",
+        "TDFC",
+        "TDRC",
+        "TEE",
+        "TEO",
+        "TES",
+        "TFU",
+        "TFUG",
+        "TPE",
+        "TRE",
+        "TVD",
+        "VMCR1",
+        "VMCR2",
+        "VMCR3",
+        "VMCR4",
+        "VMCR5",
+        "VMCR6"
+      ],
+      "properties": {
+        "ADBL": {
+          "$id": "#/properties/EvtLT/properties/ADBL",
+          "type": "integer",
+          "title": "The Adbl Schema",
+          "examples": [
+            85
+          ]
+        },
+        "MBD": {
+          "$id": "#/properties/EvtLT/properties/MBD",
+          "type": "integer",
+          "title": "The Mbd Schema",
+          "examples": [
+            24545
+          ]
+        },
+        "MBT": {
+          "$id": "#/properties/EvtLT/properties/MBT",
+          "type": "integer",
+          "title": "The Mbt Schema",
+          "examples": [
+            14256
+          ]
+        },
+        "MCE": {
+          "$id": "#/properties/EvtLT/properties/MCE",
+          "type": "integer",
+          "title": "The Mce Schema",
+          "examples": [
+            400
+          ]
+        },
+        "MDE": {
+          "$id": "#/properties/EvtLT/properties/MDE",
+          "type": "integer",
+          "title": "The Mde Schema",
+          "examples": [
+            104
+          ]
+        },
+        "MDO": {
+          "$id": "#/properties/EvtLT/properties/MDO",
+          "type": "integer",
+          "title": "The Mdo Schema",
+          "examples": [
+            310
+          ]
+        },
+        "MEE": {
+          "$id": "#/properties/EvtLT/properties/MEE",
+          "type": "integer",
+          "title": "The Mee Schema",
+          "examples": [
+            530
+          ]
+        },
+        "MEO": {
+          "$id": "#/properties/EvtLT/properties/MEO",
+          "type": "integer",
+          "title": "The Meo Schema",
+          "examples": [
+            36215
+          ]
+        },
+        "MFU": {
+          "$id": "#/properties/EvtLT/properties/MFU",
+          "type": "integer",
+          "title": "The Mfu Schema",
+          "examples": [
+            975
+          ]
+        },
+        "MKO": {
+          "$id": "#/properties/EvtLT/properties/MKO",
+          "type": "integer",
+          "title": "The Mko Schema",
+          "examples": [
+            29456
+          ]
+        },
+        "MPE": {
+          "$id": "#/properties/EvtLT/properties/MPE",
+          "type": "integer",
+          "title": "The Mpe Schema",
+          "examples": [
+            1200
+          ]
+        },
+        "MRE": {
+          "$id": "#/properties/EvtLT/properties/MRE",
+          "type": "integer",
+          "title": "The Mre Schema",
+          "examples": [
+            510
+          ]
+        },
+        "MSOC": {
+          "$id": "#/properties/EvtLT/properties/MSOC",
+          "type": "integer",
+          "title": "The Msoc Schema",
+          "examples": [
+            70
+          ]
+        },
+        "MVDH": {
+          "$id": "#/properties/EvtLT/properties/MVDH",
+          "type": "integer",
+          "title": "The Mvdh Schema",
+          "examples": [
+            195488
+          ]
+        },
+        "TCE": {
+          "$id": "#/properties/EvtLT/properties/TCE",
+          "type": "integer",
+          "title": "The Tce Schema",
+          "examples": [
+            15000
+          ]
+        },
+        "TD2C": {
+          "$id": "#/properties/EvtLT/properties/TD2C",
+          "type": "integer",
+          "title": "The Td2c Schema",
+          "examples": [
+            169542
+          ]
+        },
+        "TD3C": {
+          "$id": "#/properties/EvtLT/properties/TD3C",
+          "type": "integer",
+          "title": "The Td3c Schema",
+          "examples": [
+            187596
+          ]
+        },
+        "TDE": {
+          "$id": "#/properties/EvtLT/properties/TDE",
+          "type": "integer",
+          "title": "The Tde Schema",
+          "examples": [
+            1004
+          ]
+        },
+        "TDFC": {
+          "$id": "#/properties/EvtLT/properties/TDFC",
+          "type": "integer",
+          "title": "The Tdfc Schema",
+          "examples": [
+            225264
+          ]
+        },
+        "TDRC": {
+          "$id": "#/properties/EvtLT/properties/TDRC",
+          "type": "integer",
+          "title": "The Tdrc Schema",
+          "examples": [
+            154548
+          ]
+        },
+        "TEE": {
+          "$id": "#/properties/EvtLT/properties/TEE",
+          "type": "integer",
+          "title": "The Tee Schema",
+          "examples": [
+            5600
+          ]
+        },
+        "TEO": {
+          "$id": "#/properties/EvtLT/properties/TEO",
+          "type": "integer",
+          "title": "The Teo Schema",
+          "examples": [
+            13693
+          ]
+        },
+        "TES": {
+          "$id": "#/properties/EvtLT/properties/TES",
+          "type": "integer",
+          "title": "The Tes Schema",
+          "examples": [
+            4521
+          ]
+        },
+        "TFU": {
+          "$id": "#/properties/EvtLT/properties/TFU",
+          "type": "integer",
+          "title": "The Tfu Schema",
+          "examples": [
+            92674
+          ]
+        },
+        "TFUG": {
+          "$id": "#/properties/EvtLT/properties/TFUG",
+          "type": "integer",
+          "title": "The Tfug Schema",
+          "examples": [
+            2147483647
+          ]
+        },
+        "TPE": {
+          "$id": "#/properties/EvtLT/properties/TPE",
+          "type": "integer",
+          "title": "The Tpe Schema",
+          "examples": [
+            12002
+          ]
+        },
+        "TRE": {
+          "$id": "#/properties/EvtLT/properties/TRE",
+          "type": "integer",
+          "title": "The Tre Schema",
+          "examples": [
+            5700
+          ]
+        },
+        "TVD": {
+          "$id": "#/properties/EvtLT/properties/TVD",
+          "type": "integer",
+          "title": "The Tvd Schema",
+          "examples": [
+            172135
+          ]
+        },
+        "VMCR1": {
+          "$id": "#/properties/EvtLT/properties/VMCR1",
+          "type": "integer",
+          "title": "The Vmcr1 Schema",
+          "examples": [
+            60
+          ]
+        },
+        "VMCR2": {
+          "$id": "#/properties/EvtLT/properties/VMCR2",
+          "type": "integer",
+          "title": "The Vmcr2 Schema",
+          "examples": [
+            59
+          ]
+        },
+        "VMCR3": {
+          "$id": "#/properties/EvtLT/properties/VMCR3",
+          "type": "integer",
+          "title": "The Vmcr3 Schema",
+          "examples": [
+            44
+          ]
+        },
+        "VMCR4": {
+          "$id": "#/properties/EvtLT/properties/VMCR4",
+          "type": "integer",
+          "title": "The Vmcr4 Schema",
+          "examples": [
+            42
+          ]
+        },
+        "VMCR5": {
+          "$id": "#/properties/EvtLT/properties/VMCR5",
+          "type": "integer",
+          "title": "The Vmcr5 Schema",
+          "examples": [
+            74
+          ]
+        },
+        "VMCR6": {
+          "$id": "#/properties/EvtLT/properties/VMCR6",
+          "type": "integer",
+          "title": "The Vmcr6 Schema",
+          "examples": [
+            79
+          ]
+        }
+      }
+    },
+    "Header": {
+      "$id": "#/properties/Header",
+      "type": "object",
+      "title": "The Header Schema",
+      "required": [
+        "CODE",
+        "DST",
+        "EVTDATE",
+        "GPSInfo",
+        "ID",
+        "PROG",
+        "SENDDATE",
+        "SERVERNAME",
+        "SRVDATE",
+        "TX",
+        "TYPE",
+        "VIN"
+      ],
+      "properties": {
+        "CODE": {
+          "$id": "#/properties/Header/properties/CODE",
+          "type": "string",
+          "title": "The Code Schema",
+          "default": "",
+          "examples": [
+            "EC10"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "DST": {
+          "$id": "#/properties/Header/properties/DST",
+          "type": "integer",
+          "title": "The Dst Schema",
+          "examples": [
+            240636
+          ]
+        },
+        "EVTDATE": {
+          "$id": "#/properties/Header/properties/EVTDATE",
+          "type": "integer",
+          "title": "The Evtdate Schema",
+          "examples": [
+            1492714346
+          ]
+        },
+        "GPSInfo": {
+          "$id": "#/properties/Header/properties/GPSInfo",
+          "type": "object",
+          "title": "The Gpsinfo Schema",
+          "required": [
+            "ALT",
+            "DOP",            
+            "LAT",
+            "LON",            
+          ],
+          "properties": {
+            "ALT": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/ALT",
+              "type": "integer",
+              "title": "The Alt Schema",
+              "examples": [
+                260
+              ]
+            },
+            "DOP": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/DOP",
+              "type": "integer",
+              "title": "The Dop Schema",
+              "examples": [
+                25
+              ]
+            },
+            "GNSSType": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/GNSSType",
+              "type": "string",
+              "title": "The Gnsstype Schema",
+              "enum": ["GPS", "GLONASS", "GALILEO", "BEIDOU", "IRNSS", "Other"],
+              "examples": [
+                "GLONASS"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "HEAD": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/HEAD",
+              "type": "integer",
+              "title": "The Head Schema",
+              "examples": [
+                0
+              ]
+            },
+            "LAT": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/LAT",
+              "type": "integer",
+              "title": "The Lat Schema",
+              "examples": [
+                2932530
+              ]
+            },
+            "LON": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/LON",
+              "type": "integer",
+              "title": "The Lon Schema",
+              "examples": [
+                155604
+              ]
+            },
+            "NUMSAT": {
+              "$id": "#/properties/Header/properties/GPSInfo/properties/NUMSAT",
+              "type": "integer",
+              "title": "The Numsat Schema",
+              "examples": [
+                7
+              ]
+            }
+          }
+        },
+        "ID": {
+          "$id": "#/properties/Header/properties/ID",
+          "type": "integer",
+          "title": "The Id Schema",
+          "examples": [
+            4
+          ]
+        },
+        "PROG": {
+          "$id": "#/properties/Header/properties/PROG",
+          "type": "integer",
+          "title": "The Prog Schema",
+          "examples": [
+            1345
+          ]
+        },
+        "SENDDATE": {
+          "$id": "#/properties/Header/properties/SENDDATE",
+          "type": "integer",
+          "title": "The Senddate Schema",
+          "examples": [
+            1492714386
+          ]
+        },
+        "SERVERNAME": {
+          "$id": "#/properties/Header/properties/SERVERNAME",
+          "type": "string",
+          "title": "The Servername Schema",
+          "examples": [
+            "ABC"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "SRVDATE": {
+          "$id": "#/properties/Header/properties/SRVDATE",
+          "type": "integer",
+          "title": "The Srvdate Schema",
+          "examples": [
+            1492714366
+          ]
+        },
+         "TIMEZONE": {
+          "$id": "#/properties/Header/properties/TIMEZONE",
+          "type": "string",
+          "title": "The Timezone Schema",
+          "examples": [
+            "UTC+01:00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "TX": {
+          "$id": "#/properties/Header/properties/TX",
+          "type": "integer",
+          "title": "The Tx Schema",
+          "enum": [0, 1, 3],
+          "examples": [
+            3
+          ]
+        },
+        "TYPE": {
+          "$id": "#/properties/Header/properties/TYPE",
+          "type": "string",
+          "title": "The Type Schema",
+          "examples": [
+            "HEADER_ONLY"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "VIN": {
+          "$id": "#/properties/Header/properties/VIN",
+          "type": "string",
+          "title": "The Vin Schema",
+          "examples": [
+            "VIN00000000000001"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}
