@@ -74,8 +74,8 @@
         "TIMEZONE": "UTC+01:00",
         "TX": 3,
         "TYPE": "TRACKING",
-        "VERS": "2.1.0",
+        "VERS": "2.1.1",
         "VIN": "VIN00000000000001"
     },
-    "_comment": "ITxPT S03P01v2.1.0 TiGR Protocol - Tracking event JSON Example"
+    "_comment": "ITxPT S03P01 TiGR Protocol - Tracking event JSON Example"
 }
