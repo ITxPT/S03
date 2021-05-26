@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/schema#",
   "type": "object",
   "title": "The Root Schema of Journey event",
-  "description": "ITxPT S03P01v2.1.0 TiGR Protocol - Journey event JSON Schema",
+  "description": "ITxPT S03P01 TiGR Protocol - Journey event JSON Schema",
   "required": [
     "EvtLT",
     "Header"

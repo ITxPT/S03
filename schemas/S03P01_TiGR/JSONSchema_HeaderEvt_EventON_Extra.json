@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/schema#",
   "type": "object",
   "title": "The Root Schema event ON ",
-  "description": "ITxPT S03P01v2.1.0 TiGR Protocol - Event ON JSON Schema",
+  "description": "ITxPT S03P01 TiGR Protocol - Event ON JSON Schema",
   "required": [
     "EvtON",
     "Extra",
