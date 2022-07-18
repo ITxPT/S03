@@ -1,5 +1,8 @@
 ITxPT(R)2020 specifications
-# S03 - Backoffice Architecture specifications
+# S03 - Backoffice Architecture specifications Version 2.1.1
+```diff
+- Version 2.2.0 will be released by end of October 2022
+```
 
 ## Known Issue List ##
 Known Issues for the S03 Specifications are documented in [KnownIssues.md](KnownIssues.md)
