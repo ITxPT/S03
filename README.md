@@ -17,4 +17,4 @@ JSON Schema Definition is currently the de facto standard for describing JSON da
 To report any issue found during implementation or question you have regarding the content of this repository, please use the native GitHub Issue system. 
 
 ## Report an issue/question related to an ITxPT specification ##
-To report any issue found during implementation or question you have regarding the content of the specification, please use the dedicated form: https://forms.gle/tMRgxTXSF1Mahpq27
+To report any issue found during implementation or question you have regarding the content of the specification, please use the dedicated platform: https://ticket.itxpt.eu/
