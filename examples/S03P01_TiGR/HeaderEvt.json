@@ -20,8 +20,9 @@
         "TIMEZONE": "UTC+01:00",
         "TX": 3,
         "TYPE": "HEADER_ONLY",
-        "VERS": "2.1.1",
-        "VIN": "VIN00000000000001"
+        "VERS": "2.2.0",
+        "VIN": "1HGCM82633A123456",
+        "BID": "BID1234567890"
     },
     "_comment": "ITxPT S03P01 TiGR Protocol - Header only event JSON Example"
 }

@@ -5,7 +5,6 @@
   "description": "ITxPT S03P01 TiGR Protocol - Event ON JSON Schema",
   "required": [
     "EvtON",
-    "Extra",
     "Header"
   ],
   "properties": {
@@ -274,70 +273,6 @@
         },
         "PCBC": {
           "$ref": "JSONSchema_Codes.json#/properties/PCBC"
-        }
-      }
-    },
-    "Extra": {
-      "type": "object",
-      "title": "The Extra Schema",
-      "required": [
-        "AIRCIRCID",
-        "ALTERNATORID",
-        "CELLID",
-        "CodeVMC",
-        "DEVID",
-        "DEVTYP",
-        "DOORID",
-        "DTC_FMI",
-        "DTC_SPN",
-        "DTC_SRC",
-        "DTC_VRT",
-        "INFOADD",
-        "WHEELID",
-        "WORNPERC"
-      ],
-      "properties": {
-        "AIRCIRCID": {
-          "$ref": "JSONSchema_Codes.json#/properties/AIRCIRCID"
-        },
-        "ALTERNATORID": {
-          "$ref": "JSONSchema_Codes.json#/properties/ALTERNATORID"
-        },
-        "CELLID": {
-          "$ref": "JSONSchema_Codes.json#/properties/CELLID"
-        },
-        "CodeVMC": {
-          "$ref": "JSONSchema_Codes.json#/properties/CodeVMC"
-        },
-        "DEVID": {
-          "$ref": "JSONSchema_Codes.json#/properties/DEVID"
-        },
-        "DEVTYP": {
-          "$ref": "JSONSchema_Codes.json#/properties/DEVTYP"
-        },
-        "DOORID": {
-          "$ref": "JSONSchema_Codes.json#/properties/DOORID"
-        },
-        "DTC_FMI": {
-          "$ref": "JSONSchema_Codes.json#/properties/DTC_FMI"
-        },
-        "DTC_SPN": {
-          "$ref": "JSONSchema_Codes.json#/properties/DTC_SPN"
-        },
-        "DTC_SRC": {
-          "$ref": "JSONSchema_Codes.json#/properties/DTC_SRC"
-        },
-        "DTC_VRT": {
-          "$ref": "JSONSchema_Codes.json#/properties/DTC_VRT"
-        },
-        "INFOADD": {
-          "$ref": "JSONSchema_Codes.json#/properties/INFOADD"
-        },
-        "WHEELID": {
-          "$ref": "JSONSchema_Codes.json#/properties/WHEELID"
-        },
-        "WORNPERC": {
-          "$ref": "JSONSchema_Codes.json#/properties/WORNPERC"
         }
       }
     },

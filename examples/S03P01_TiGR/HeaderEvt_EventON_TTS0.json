@@ -41,7 +41,30 @@
         "VAC": 24,
         "VB": 264,
         "VHM": 2,
-        "VSE": 41
+        "VSE": 41,
+        "TRO": 80,
+        "PRO": 20,
+        "WST": 0,
+        "RDS": 0,
+        "SIN": 62,
+        "LAC": 343,
+        "LOA": 235,
+        "SPR": 2,
+        "RCT": 0,
+        "TCC": 241,
+        "PSL": 33,
+        "IPCH": 32,
+        "IPCK": 5,
+        "PSOC": 25,
+        "PSOH": 79,
+        "HADP": 308,
+        "HACP": 203,
+        "PTT": 26,
+        "PBCL": 0,
+        "EPF": 2,
+        "HBC": 4,
+        "LBC": 4,
+        "PCBC": 13
     },
     "Header": {
         "CODE": "TTS0",
@@ -64,8 +87,8 @@
         "TIMEZONE": "UTC+01:00",
         "TX": 1,
         "TYPE": "EVENT_ON",
-        "VERS": "2.1.1",
-        "VIN": "VIN00000000000001"
+        "VERS": "2.2.0",
+        "VIN": "1HGCM82633A123456"
     },
     "_comment": "ITxPT S03P01 TiGR Protocol - FMS TTS fault ON event JSON Example"
 }

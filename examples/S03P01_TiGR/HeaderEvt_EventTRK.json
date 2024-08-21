@@ -50,8 +50,31 @@
         "TRO": 80,
         "VAC": 2147483647,
         "VB": 264,
+        "VSE": 2147483647,
         "VHM": 2147483647,
-        "VSE": 2147483647
+        "WST": 0,
+        "HBRC": 85,
+        "RDS": 0,
+        "SIN": 62,
+        "LAC": 343,
+        "LOA": 235,
+        "SPR": 2,
+        "RCT": 0,
+        "TCC": 241,
+        "PSL": 33,
+        "IPCH": 32,
+        "IPCK": 5,
+        "PSOC": 25,
+        "PSOH": 79,
+        "HADP": 307,
+        "HACP": 203,
+        "PTT": 26,
+        "PBCL": 5,
+        "EPF": 2,
+        "HBC": 4,
+        "LBC": 4,
+        "PCBC": 13
+
     },
     "Header": {
         "CODE": "EV00",
@@ -74,8 +97,8 @@
         "TIMEZONE": "UTC+01:00",
         "TX": 3,
         "TYPE": "TRACKING",
-        "VERS": "2.1.1",
-        "VIN": "VIN00000000000001"
+        "VERS": "2.2.0",
+        "VIN": "1HGCM82633A123456"
     },
     "_comment": "ITxPT S03P01 TiGR Protocol - Tracking event JSON Example"
 }
