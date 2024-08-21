@@ -1083,7 +1083,7 @@
           "type": "string",
           "title": "The Vin Schema",
           "examples": [
-            "VIN00000000000001 ^[A-HJ-NPR-Z0-9]{17}$"
+            "1HGCM82633A123456"
           ],
           "pattern": "^[A-HJ-NPR-Z0-9]{17}$"
         },

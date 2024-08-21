@@ -1,8 +1,19 @@
 import json
-from jsonschema import validate, ValidationError, Draft202012Validator
+from jsonschema import ValidationError, Draft202012Validator
 from pathlib import Path
 from referencing import Registry, Resource, Specification
 from referencing.jsonschema import specification_with
+
+
+# Path to the JSON file you want to validate
+payload_path = 'examples/S03P01_TiGR/HeaderEvt_EventON_TTS0.json'
+schema_path = 'schemas/S03P01_TiGR/JSONSchema_HeaderEvt_EventON.json'
+
+
+# Load the schemas that are being referenced
+code_referance_path = 'schemas/S03P01_TiGR/JSONSchema_Codes.json'
+header_referance_path = 'schemas/S03P01_TiGR/JSONSchema_HeaderEvt.json'
+
 
 def validate_json(data, schema, referenced_schemas):
     try:
@@ -24,26 +35,24 @@ def validate_json(data, schema, referenced_schemas):
         return False
 
 # Load the schemas that are being referenced
-with open("/schemas/S03P01_TiGR/JSONSchema_HeaderEvt.json") as header_schema_file:
+with open(header_referance_path) as header_schema_file:
     header_schema = json.load(header_schema_file)
 
-with open("/schemas/S03P01_TiGR/JSONSchema_Codes.json") as another_schema_file:
-    another_schema = json.load(another_schema_file)
+with open(code_referance_path) as code_schema_file:
+    code_schema = json.load(code_schema_file)
 
 # Store the referenced schemas in a dictionary with their URIs
 referenced_schemas = {
     "JSONSchema_HeaderEvt.json": header_schema,
-    "JSONSchema_Codes.json": another_schema,
+    "JSONSchema_Codes.json": code_schema,
 }
 
-########################################################################################
-
 # Load the main JSON schema
-with open('/schemas/S03P01_TiGR/JSONSchema_HeaderEvt_EventON.json', 'r') as schema_file:
+with open(schema_path, 'r') as schema_file:
     schema = json.load(schema_file)
 
 # Load the JSON file you want to validate
-payload_path = '/examples/S03P01_TiGR/HeaderEvt_EventON_TTS0.json'
+
 with open(payload_path, 'r') as json_file:
     data = json.load(json_file)
 
