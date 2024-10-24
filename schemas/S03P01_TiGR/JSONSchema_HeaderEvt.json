@@ -24,8 +24,7 @@
         "TX",
         "TYPE",
         "VIN",
-        "VERS",
-        "TIMEZONE"
+        "VERS"
       ],
       "properties": {
         "CODE": {
@@ -43,11 +42,7 @@
           "required": [
             "ALT",
             "LAT",
-            "LON",
-            "NUMSAT",
-            "GNSSType",
-            "DOP",
-            "HEAD"           
+            "LON"           
           ],
           "properties": {
             "ALT": {
