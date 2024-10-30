@@ -227,20 +227,7 @@
       "type": "object",
       "title": "The Extra Schema",
       "required": [
-        "AIRCIRCID",
-        "ALTERNATORID",
-        "CELLID",
-        "CodeVMC",
-        "DEVID",
-        "DEVTYP",
-        "DOORID",
-        "DTC_FMI",
-        "DTC_SPN",
-        "DTC_SRC",
-        "DTC_VRT",
-        "INFOADD",
-        "WHEELID",
-        "WORNPERC"
+        "CodeVMC"
       ],
       "properties": {
         "AIRCIRCID": {
