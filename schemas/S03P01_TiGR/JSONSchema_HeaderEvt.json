@@ -12,19 +12,19 @@
       "type": "object",
       "title": "The Header Schema",
       "required": [
-        "CODE",
-        "DST",
-        "EVTDATE",
-        "GPSInfo",
         "ID",
-        "PROG",
-        "SENDDATE",
+        "VERS",
         "SERVERNAME",
-        "SRVDATE",
-        "TX",
-        "TYPE",
         "VIN",
-        "VERS"
+        "PROG",
+        "EVTDATE",
+        "TRSDATE",
+        "SRVDATE",
+        "SENDDATE",
+        "CODE",
+        "TYPE",
+        "DST",
+        "GPSInfo"
       ],
       "properties": {
         "CODE": {
@@ -36,13 +36,16 @@
         "EVTDATE": {
           "$ref": "JSONSchema_Codes.json#/properties/EVTDATE"
         },
+        "TRSDATE": {
+          "$ref": "JSONSchema_Codes.json#/properties/TRSDATE"
+        },
         "GPSInfo": {
           "type": "object",
           "title": "The Gpsinfo Schema",
           "required": [
-            "ALT",
             "LAT",
-            "LON"           
+            "LON",
+            "ALT"         
           ],
           "properties": {
             "ALT": {
@@ -85,9 +88,6 @@
         },
         "TIMEZONE": {
           "$ref": "JSONSchema_Codes.json#/properties/TIMEZONE"
-        },
-        "TX": {
-          "$ref": "JSONSchema_Codes.json#/properties/TX"
         },
         "TYPE": {
           "$ref": "JSONSchema_Codes.json#/properties/TYPE"

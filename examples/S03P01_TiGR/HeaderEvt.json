@@ -3,11 +3,12 @@
         "CODE": "EC10",
         "DST": 240636,
         "EVTDATE": 1492714346,
+        "TRSDATE": 1492714353,
         "GPSInfo": {
             "ALT": 260,
             "DOP": 25,
             "GNSSType": "GLONASS",
-            "HEAD": 0,
+            "HEAD": 90.5,
             "LAT": 2932530,
             "LON": 155604,
             "NUMSAT": 7
@@ -18,9 +19,8 @@
         "SERVERNAME": "ABC",
         "SRVDATE": 1492714366,
         "TIMEZONE": "UTC+01:00",
-        "TX": 3,
         "TYPE": "HEADER_ONLY",
-        "VERS": "2.2.0",
+        "VERS": "3.0.0",
         "VIN": "1HGCM82633A123456",
         "BID": "BID1234567890"
     },

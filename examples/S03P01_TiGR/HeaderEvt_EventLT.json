@@ -24,7 +24,7 @@
         "TEO": 13693,
         "TES": 4521,
         "TFU": 92674,
-        "TFUG": 2147483647,
+        "TFUG": null,
         "TPE": 12002,
         "TRE": 5700,
         "TVD": 172135,
@@ -51,11 +51,12 @@
         "CODE": "EV21",
         "DST": 240636,
         "EVTDATE": 1492714346,
+        "TRSDATE": 1492714353,
         "GPSInfo": {
             "ALT": 260,
             "DOP": 25,
             "GNSSType": "GLONASS",
-            "HEAD": 0,
+            "HEAD": 0.2,
             "LAT": 2932530,
             "LON": 155604,
             "NUMSAT": 7
@@ -66,9 +67,8 @@
         "SERVERNAME": "ABC",
         "SRVDATE": 1492714366,
         "TIMEZONE": "UTC+01:00",
-        "TX": 3,
         "TYPE": "JOURNEY",
-        "VERS": "2.2.0",
+        "VERS": "3.0.0",
         "VIN": "1HGCM82633A123456"
     },
     "_comment": "ITxPT S03P01 TiGR Protocol - Journey event JSON Example"

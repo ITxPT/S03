@@ -6,525 +6,543 @@
     "description": "ITxPT S03P01 TiGR Protocol - Codes JSON Schema",
     "properties": {
         "SMX": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Smx Schema",          
           "examples": [
             34
           ]
         },
         "VB": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vb Schema",          
           "examples": [
             264
           ]
         },
         "TRM": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Trm Schema",          
           "examples": [
             41
           ]
         },
         "RPM": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Rpm Schema",          
           "examples": [
             742
           ]
         },
         "GEAR": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Gear Schema",          
           "examples": [
             1
           ]
         },
         "RPT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Rpt Schema",          
           "examples": [
             0
           ]
         },
         "BRKSTS": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Brksts Schema",          
           "examples": [
             0
           ]
         },
         "PBR": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Pbr Schema",          
           "examples": [
             0
           ]
         },
         "PAC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Pac Schema",          
           "examples": [
             26
           ]
         },
         "STP": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Stp Schema",          
           "examples": [
             0
           ]
         },
         "TMX": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tmx Schema",          
           "examples": [
             54
           ]
         },
         "TRO": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tro Schema",
           "examples": [
             80
           ]
         },
         "PRO": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Pro Schema",
           "examples": [
             20
           ]
         },
         "LRO": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Lro Schema",          
           "examples": [
             2147483647
           ]
         },
         "SOC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Soc Schema",          
           "examples": [
             47
           ]
         },
         "VHM": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vhm Schema",          
           "examples": [
             2
           ]
         },
         "TBV": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tbv Schema",          
           "examples": [
             741
           ]
         },
         "APU": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Apu Schema",          
           "examples": [
             1
           ]
         },
         "ACS": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Acs Schema",          
           "examples": [
             1
           ]
         },
         "EXT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Ext Schema",          
           "examples": [
             25
           ]
         },
         "IVT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Ivt Schema",          
           "examples": [
             27
           ]
         },
         "ITT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Itt Schema",          
           "examples": [
             28
           ]
         },
         "TBC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tbc Schema",          
           "examples": [
             16
           ]
         },
         "EET": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Eet Schema",          
           "examples": [
             1100
           ]
         },
         "EEC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Eec Schema",          
           "examples": [
             15
           ]
         },
         "VSE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vse Schema",          
           "examples": [
             41
           ]
         },
         "CSE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Cse Schema",          
           "examples": [
             3
           ]
         },
         "VAC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vac Schema",          
           "examples": [
             24
           ]
         },
         "CAC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Cac Schema",          
           "examples": [
             2
           ]
         },
         "ACP": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Acp Schema",          
           "examples": [
             4
           ]
         },
         "HEP": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Hep Schema",          
           "examples": [
             0
           ]
         },
         "EPC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Epc Schema",          
           "examples": [
             50
           ]
         },
         "SPC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Spc Schema",          
           "examples": [
             2
           ]
         },
         "CPP": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Cpp Schema",          
           "examples": [
             11
           ]
         },
         "DCC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Dcc Schema",
           "examples": [
             3
           ]
         },
         "CMT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Cmt Schema",          
           "examples": [
             90
           ]
         },
         "CHS": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Chs Schema",          
           "examples": [
             4
           ]
         },
         "HBT": {
-          "type": "integer",
+          "type": ["number","null"],
           "title": "The Hbt Schema",          
           "examples": [
-            35
-          ]
+            35.3
+          ],
+          "not": {
+                "const": 2147483647
+          }
         },
         "LBT": {
-          "type": "integer",
+          "type": ["number","null"],
           "title": "The Lbt Schema",          
           "examples": [
-            30
-          ]
+            30.4
+          ],
+          "not": {
+                "const": 2147483647
+          }
         },
         "WST": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The WST Schema",
           "examples": [
             0
           ]
         },
         "RDS": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The RDS Schema",
           "examples": [
             0
           ]
         },
         "SIN": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The SIN Schema",
           "examples": [
             62
           ]
         },
         "LAC": {
-          "type": "integer",
+          "type": ["number","null"],
           "title": "The LAC Schema",
           "examples": [
-            343
-          ]
+            3.234
+          ],
+          "not": {
+                "const": 2147483647
+          }
         },
         "LOA": {
-          "type": "integer",
+          "type": ["number","null"],
           "title": "The LOA Schema",
           "examples": [
-            235
-          ]
+            5.332
+          ],
+          "not": {
+                "const": 2147483647
+          }
         },
         "SPR": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The SPR Schema",
           "examples": [
             2
           ]
         },
         "RCT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The RCT Schema",
           "examples": [
             0
           ]
         },
         "TCC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The TCC Schema",
           "examples": [
             241
           ]
         },
         "PSL": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The PSL Schema",
           "examples": [
             33
           ]
         },
         "IPCH": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The IPCH Schema",
           "examples": [
             32
           ]
         },
         "IPCK": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The IPCK Schema",
           "examples": [
             5
           ]
         },
         "PSOC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The PSOC Schema",
           "examples": [
             25
           ]
         },
         "PSOH": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The PSOH Schema",
           "examples": [
             79
           ]
         },
         "HADP": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The HADP Schema",
           "examples": [
             307
           ]
         },
         "HACP": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The HACP Schema",
           "examples": [
             203
           ]
         },
         "PTT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The PTT Schema",
           "examples": [
             26
           ]
         },
         "SWA": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Swa Schema",          
           "examples": [
             53
           ]
         },
         "TTID": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Ttid Schema",          
           "examples": [
             2147483647
           ]
         },
         "TTSTS": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Ttsts Schema",          
           "examples": [
             2147483647
           ]
         },
         "PBCL": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The PBCL Schema",
           "examples": [
             5
           ]
         },
         "EPF": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The EPF Schema",
           "examples": [
             2
           ]
         },
         "HBC": {
-          "type": "integer",
+          "type": ["number","null"],
           "title": "The HBC Schema",
           "examples": [
-            4
-          ]
+            4.223
+          ],
+          "not": {
+                "const": 2147483647
+          }
         },
         "LBC": {
-          "type": "integer",
+          "type": ["number","null"],
           "title": "The LBC Schema",
           "examples": [
-            4
-          ]
+            4.423
+          ],
+          "not": {
+                "const": 2147483647
+          }
         },
         "PCBC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The PCBC Schema",
           "examples": [
             13
           ]
         },
         "RANGE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The RANGE Schema",
           "examples": [
             25651
           ]
         },
         "EVD": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Evd Schema",          
           "examples": [
             253
           ]
         },
         "FOD": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Fod Schema",          
           "examples": [
             3260
           ]
         },
         "PROGON": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Progon Schema",          
           "examples": [
             1289
           ]
         },
         "TCA": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tca Schema",
           "examples": [
             14002
           ]
         },
         "TAM": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tam Schema",
           "examples": [
             12051
           ]
         },
         "AIRCIRCID": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Aircircid Schema",
           "examples": [
-            "2"
+            "AIR:2"
           ]
         },
         "ALTERNATORID": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Alternatorid Schema",
           "examples": [
-            "2"
+            "EA:23"
           ]
         },
         "CELLID": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Cellid Schema",
           "examples": [
-            "NULL"
+            "C43:3"
           ]
         },
         "CodeVMC": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Codevmc Schema",
           "examples": [
             "34569"
           ]
         },
         "DEVID": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Devid Schema",
           "examples": [
-            "1"
+            "D:1"
           ]
         },
         "DEVTYP": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Devtyp Schema",
           "examples": [
             "ENGINE"
@@ -532,42 +550,42 @@
           "pattern": "^(.*)$"
         },
         "DOORID": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Doorid Schema",
           "examples": [
-            "2"
+            "DOOR:2"
           ]
         },
         "DTC_FMI": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Dtc_fmi Schema",
           "examples": [
-            "2"
+            "FMI:2"
           ]
         },
         "DTC_SPN": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Dtc_spn Schema",
           "examples": [
-            "2"
+            "SPN:2"
           ]
         },
         "DTC_SRC": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Dtc_src Schema",
           "examples": [
-            "2"
+            "SRC:2"
           ]
         },
         "DTC_VRT": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Dtc_vrt Schema",
           "examples": [
-            "2"
+            "VRT:2"
           ]
         },
         "INFOADD": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Infoadd Schema",
           "examples": [
             "ENGINE FAULT"
@@ -575,413 +593,413 @@
           "pattern": "^(.*)$"
         },
         "WHEELID": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Wheelid Schema",
           "examples": [
-            "2"
+            "W:2"
           ]
         },
         "WORNPERC": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Wornperc Schema",
           "examples": [
-            "2"
+            "32"
           ]
         },
         "ADBL": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Adbl Schema",
           "examples": [
             85
           ]
         },
         "MBD": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mbd Schema",
           "examples": [
             24545
           ]
         },
         "MBT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mbt Schema",
           "examples": [
             14256
           ]
         },
         "MCE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mce Schema",
           "examples": [
             400
           ]
         },
         "MDE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mde Schema",
           "examples": [
             104
           ]
         },
         "MDO": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mdo Schema",
           "examples": [
             310
           ]
         },
         "MEE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mee Schema",
           "examples": [
             530
           ]
         },
         "MEO": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Meo Schema",
           "examples": [
             36215
           ]
         },
         "MFU": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mfu Schema",
           "examples": [
             975
           ]
         },
         "MKO": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mko Schema",
           "examples": [
             29456
           ]
         },
         "MPE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mpe Schema",
           "examples": [
             1200
           ]
         },
         "MRE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mre Schema",
           "examples": [
             510
           ]
         },
         "MSOC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Msoc Schema",
           "examples": [
             70
           ]
         },
         "MVDH": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Mvdh Schema",
           "examples": [
             195488
           ]
         },
         "TCE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tce Schema",
           "examples": [
             15000
           ]
         },
         "TD2C": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Td2c Schema",
           "examples": [
             169542
           ]
         },
         "TD3C": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Td3c Schema",
           "examples": [
             187596
           ]
         },
         "TDE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tde Schema",
           "examples": [
             1004
           ]
         },
         "TDFC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tdfc Schema",
           "examples": [
             225264
           ]
         },
         "TDRC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tdrc Schema",
           "examples": [
             154548
           ]
         },
         "TEE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tee Schema",
           "examples": [
             5600
           ]
         },
         "TEO": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Teo Schema",
           "examples": [
             13693
           ]
         },
         "TES": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tes Schema",
           "examples": [
             4521
           ]
         },
         "TFU": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tfu Schema",
           "examples": [
             92674
           ]
         },
         "TFUG": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tfug Schema",
           "examples": [
             2147483647
           ]
         },
         "TPE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tpe Schema",
           "examples": [
             12002
           ]
         },
         "TRE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tre Schema",
           "examples": [
             5700
           ]
         },
         "TVD": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Tvd Schema",
           "examples": [
             172135
           ]
         },
         "VMCR1": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vmcr1 Schema",
           "examples": [
             60
           ]
         },
         "VMCR2": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vmcr2 Schema",
           "examples": [
             59
           ]
         },
         "VMCR3": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vmcr3 Schema",
           "examples": [
             44
           ]
         },
         "VMCR4": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vmcr4 Schema",
           "examples": [
             42
           ]
         },
         "VMCR5": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vmcr5 Schema",
           "examples": [
             74
           ]
         },
         "VMCR6": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Vmcr6 Schema",
           "examples": [
             79
           ]
         },
         "PTEI": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The PTEI Schema",
           "examples": [
             550
           ]
         },
         "PTEO": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The PTEO Schema",
           "examples": [
             350
           ]
         },
         "TAE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The TAE Schema",
           "examples": [
             14
           ]
         },
         "THC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The THC Schema",
           "examples": [
             38
           ]
         },
         "FHH": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The FHH Schema",
           "examples": [
             126
           ]
         },
         "TSPC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The TSPC Schema",
           "examples": [
             16
           ]
         },
         "TCPP": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The TCPP Schema",
           "examples": [
             186
           ]
         },
         "MFUG": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The MFUG Schema",
           "examples": [
             3436
           ]
         },
         "MEI": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The MEI Schema",
           "examples": [
             18
           ]
         },
         "BRKP1": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Brkp1 Schema",
           "examples": [
             204
           ]
         },
         "BRKP2": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Brkp2 Schema",
           "examples": [
             210
           ]
         },
         "BRKP3": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Brkp3 Schema",
           "examples": [
             190
           ]
         },
         "BRKP4": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Brkp4 Schema",
           "examples": [
             184
           ]
         },
         "LMC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Lmc Schema",
           "examples": [
             84
           ]
         },
         "LMC2": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Lmc2 Schema",
           "examples": [
             2147483647
           ]
         },
         "HBRC": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The HBRC Schema",
           "examples": [
             85
           ]
         },
         "BEP1": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Bep1 Schema",
           "examples": [
             201
           ]
         },
         "BEP2": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Bep2 Schema",
           "examples": [
             198
           ]
         },
         "BEP3": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Bep3 Schema",
           "examples": [
             212
           ]
         },
         "BEP4": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Bep4 Schema",
           "examples": [
             194
           ]
         },
         "BEP5": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Bep5 Schema",
           "examples": [
             196
           ]
         },
         "BEP6": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Bep6 Schema",
           "examples": [
             189
           ]
         },
         "CODE": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The Code Schema",
           "default": "",
           "examples": [
@@ -990,42 +1008,50 @@
           "pattern": "^[EDFMCT].*$"
         },
         "DST": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Dst Schema",
           "examples": [
             240636
           ],
-          "minimum": 0
+          "minimum": 1
         },
         "EVTDATE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Evtdate Schema",
           "examples": [
             1492714346
           ],
-          "minimum": 0
+          "minimum": 1
+        },
+        "TRSDATE": {
+          "type": ["integer","null"],
+          "title": "The Evtdate Schema",
+          "examples": [
+            1492714346
+          ],
+          "minimum": 1
         },
         "ID": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Id Schema",
           "examples": [
             4
           ]
         },
         "PROG": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Prog Schema",
           "examples": [
             1345
           ]
         },
         "SENDDATE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Senddate Schema",
           "examples": [
             1492714386
           ],
-          "minimum": 0
+          "minimum": 1
         },
         "SERVERNAME": {
           "type": "string",
@@ -1036,35 +1062,23 @@
           "pattern": "^(.*)$"
         },
         "SRVDATE": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Srvdate Schema",
           "examples": [
             1492714366
           ],
-          "minimum": 0
+          "minimum": 1
         },
         "TIMEZONE": {
-          "oneOf": [
-            {
-              "type": "string",
-              "title": "The Timezone Schema",
-              "examples": [
-                "UTC+01:00"
-              ],
-              "pattern": "^UTC[+-][0-1][0-9]:[0-5][0-9]$"
-            },
-            {
-              "type": "string",
-              "title": "The Null String Schema",
-              "examples": [
-                "NULL"
-              ],
-              "enum": ["NULL"]
-            }
-          ]
+            "type": ["string","null"],
+            "title": "The Timezone Schema",
+            "examples": [
+              "UTC+01:00"
+            ],
+            "pattern": "^UTC[+-][0-1][0-9]:[0-5][0-9]$"
         },
         "TX": {
-          "type": "integer",
+          "type": ["integer"],
           "title": "The Tx Schema",
           "enum": [0, 1, 3],
           "examples": [
@@ -1091,12 +1105,12 @@
           "type": "string",
           "title": "The Version Schema",
           "examples": [
-            "2.2.0"
+            "3.0.0"
           ],
-          "enum": ["2.2.0"]
+          "enum": ["3.0.0"]
         },
         "BID": {
-          "type": "string",
+          "type": ["string","null"],
           "title": "The BID Schema",
           "examples": [
             "BID1234567890"
@@ -1104,14 +1118,14 @@
           "pattern": "^(.*)$"
         },
         "ALT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Alt Schema",
           "examples": [
             260
           ]
         },
         "DOP": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Dop Schema",
           "examples": [
             25
@@ -1128,14 +1142,17 @@
           "pattern": "^(.*)$"
         },
         "HEAD": {
-          "type": "integer",
+          "type": ["number","null"],
           "title": "The Head Schema",
+          "minimum": 0,
+          "maximum": 360,
+          "description": "GNSS heading in degrees. 0° (or 360°) indicates true north, 90° true east, 180° true south, 270° true west.",
           "examples": [
-            0
+            123.4
           ]
         },
         "LAT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Lat Schema",
           "examples": [
             2932530
@@ -1144,7 +1161,7 @@
           "maximum": 5400000
         },
         "LON": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Lon Schema",
           "examples": [
             155604
@@ -1153,7 +1170,7 @@
           "maximum": 10800000
         },
         "NUMSAT": {
-          "type": "integer",
+          "type": ["integer","null"],
           "title": "The Numsat Schema",
           "examples": [
             7
