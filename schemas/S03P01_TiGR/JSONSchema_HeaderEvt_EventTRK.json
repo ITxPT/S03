@@ -241,6 +241,12 @@
         },
         "PCBC": {
           "$ref": "JSONSchema_Codes.json#/properties/PCBC"
+        },
+        "PCBS": {
+          "$ref": "JSONSchema_Codes.json#/properties/PCBS"
+        },
+        "MSOH": {
+          "$ref": "JSONSchema_Codes.json#/properties/MSOH"
         }
       }
     },

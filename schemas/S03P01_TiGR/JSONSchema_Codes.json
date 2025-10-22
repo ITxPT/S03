@@ -1176,6 +1176,20 @@
             7
           ],
           "minimum": 0
+        },
+        "PCBS": {
+          "type": ["integer","null"],
+          "title": "The Pcbs Schema",
+          "examples": [
+            0
+          ]
+        },
+        "MSOH": {
+          "type": ["integer","null"],
+          "title": "The Msoh Schema",
+          "examples": [
+            80
+          ]
         }
     }
 }
