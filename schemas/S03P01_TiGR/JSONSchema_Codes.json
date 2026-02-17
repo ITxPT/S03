@@ -265,20 +265,20 @@
           ]
         },
         "HBT": {
-          "type": ["number","null"],
+          "type": ["integer","null"],
           "title": "The Hbt Schema",          
           "examples": [
-            35.3
+            35
           ],
           "not": {
                 "const": 2147483647
           }
         },
         "LBT": {
-          "type": ["number","null"],
+          "type": ["integer","null"],
           "title": "The Lbt Schema",          
           "examples": [
-            30.4
+            30
           ],
           "not": {
                 "const": 2147483647
