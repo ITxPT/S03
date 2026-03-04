@@ -15,8 +15,6 @@
         "TCA",
         "TAM",
         "SMX",
-        "TTID",
-        "TTSTS",
         "SOC",
         "VHM",
         "TBV",
@@ -224,6 +222,23 @@
     },
     "Header": {
       "$ref": "JSONSchema_HeaderEvt.json#/properties/Header"
+    }
+  },
+  "if": {
+    "properties": {
+      "Header": {
+        "properties": {
+          "CODE": { "const": "TTS0" }
+        },
+        "required": ["CODE"]
+      }
+    }
+  },
+  "then": {
+    "properties": {
+      "EvtON": {
+        "required": ["TTID", "TTSTS"]
+      }
     }
   }
 }
