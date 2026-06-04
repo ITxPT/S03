@@ -101,49 +101,7 @@
         "BID": {
           "$ref": "JSONSchema_Codes.json#/properties/BID"
         }
-      },
-      "allOf": [
-        {
-          "if": {
-            "properties": { "TYPE": { "const": "EVENT_ON" } }
-          },
-          "then": {
-            "properties": { "TX": { "enum": [1] } }
-          }
-        },
-        {
-          "if": {
-            "properties": { "TYPE": { "const": "EVENT_OFF" } }
-          },
-          "then": {
-            "properties": { "TX": { "enum": [0] } }
-          }
-        },
-        {
-          "if": {
-            "properties": { "TYPE": { "const": "HEADER_ONLY" } }
-          },
-          "then": {
-            "properties": { "TX": { "enum": [3] } }
-          }
-        },
-        {
-          "if": {
-            "properties": { "TYPE": { "const": "TRACKING" } }
-          },
-          "then": {
-            "properties": { "TX": { "enum": [3] } }
-          }
-        },
-        {
-          "if": {
-            "properties": { "TYPE": { "const": "JOURNEY" } }
-          },
-          "then": {
-            "properties": { "TX": { "enum": [3] } }
-          }
-        }
-      ]
+      }
     }
   }
 }

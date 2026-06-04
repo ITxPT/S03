@@ -195,6 +195,12 @@
         "PSOH": {
           "$ref": "JSONSchema_Codes.json#/properties/PSOH"
         },
+        "PCBS": {
+          "$ref": "JSONSchema_Codes.json#/properties/PCBS"
+        },
+        "MSOH": {
+          "$ref": "JSONSchema_Codes.json#/properties/MSOH"
+        },
         "HADP": {
           "$ref": "JSONSchema_Codes.json#/properties/HADP"
         },

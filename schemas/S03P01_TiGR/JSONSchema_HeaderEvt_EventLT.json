@@ -151,6 +151,12 @@
         "TSPC": {
           "$ref": "JSONSchema_Codes.json#/properties/TSPC"
         },
+        "TDCC": {
+          "$ref": "JSONSchema_Codes.json#/properties/TDCC"
+        },
+        "TBCC": {
+          "$ref": "JSONSchema_Codes.json#/properties/TBCC"
+        },
         "TCPP": {
           "$ref": "JSONSchema_Codes.json#/properties/TCPP"
         },

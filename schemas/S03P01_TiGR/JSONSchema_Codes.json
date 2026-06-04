@@ -411,6 +411,8 @@
         },
         "TTID": {
           "type": ["integer","null"],
+          "minimum": 1,
+          "maximum": 64,
           "title": "The Ttid Schema",          
           "examples": [
             2147483647
@@ -418,6 +420,8 @@
         },
         "TTSTS": {
           "type": ["integer","null"],
+          "minimum": 0,
+          "maximum": 3,
           "title": "The Ttsts Schema",          
           "examples": [
             2147483647
@@ -515,9 +519,10 @@
         },
         "ALTERNATORID": {
           "type": ["string","null"],
+          "pattern": "^[1-4]$",
           "title": "The Alternatorid Schema",
           "examples": [
-            "EA:23"
+            "2"
           ]
         },
         "CELLID": {
@@ -1005,7 +1010,7 @@
           "examples": [
             "EC10"
           ],
-          "pattern": "^[EDFMCT].*$"
+          "pattern": "^[EDFMCT][A-Za-z0-9]{3}$"
         },
         "DST": {
           "type": ["integer","null"],
@@ -1077,12 +1082,20 @@
             ],
             "pattern": "^UTC[+-][0-1][0-9]:[0-5][0-9]$"
         },
-        "TX": {
-          "type": ["integer"],
-          "title": "The Tx Schema",
-          "enum": [0, 1, 3],
+        "TDCC": {
+          "type": ["integer","null"],
+          "title": "The Tdcc Schema",
+          "description": "DCDC cumulated energy (24V network)",
           "examples": [
-            3
+            12
+          ]
+        },
+        "TBCC": {
+          "type": ["integer","null"],
+          "title": "The Tbcc Schema",
+          "description": "Batteries system coolant temperature cumulated energy",
+          "examples": [
+            8
           ]
         },
         "TYPE": {
