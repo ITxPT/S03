@@ -145,5 +145,22 @@
         }
       ]
     }
+  },
+  "if": {
+    "properties": {
+      "Header": {
+        "properties": { "TYPE": { "const": "HEADER_ONLY" } },
+        "required": ["TYPE"]
+      }
+    }
+  },
+  "then": {
+    "properties": {
+      "EvtON": false,
+      "EvtOFF": false,
+      "EvtTRK": false,
+      "EvtLT": false,
+      "Extra": false
+    }
   }
 }

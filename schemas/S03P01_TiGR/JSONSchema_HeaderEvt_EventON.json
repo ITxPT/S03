@@ -222,7 +222,10 @@
     },
     "Header": {
       "$ref": "JSONSchema_HeaderEvt.json#/properties/Header"
-    }
+    },
+    "EvtOFF": false,
+    "EvtTRK": false,
+    "EvtLT": false
   },
   "if": {
     "properties": {
