@@ -420,7 +420,7 @@
         },
         "TTSTS": {
           "type": ["integer","null"],
-          "minimum": 0,
+          "minimum": 1,
           "maximum": 3,
           "title": "The Ttsts Schema",          
           "examples": [
