@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "The Root Schema event ON ",
+  "description": "ITxPT S03P01 TiGR Protocol - Event ON JSON Schema",
+  "required": [
+    "EvtON",
+    "Header"
+  ],
+  "properties": {
+    "EvtON": {
+      "$ref": "JSONSchema_HeaderEvt_EventON.json#/properties/EvtON"
+    },
+    "Extra": {
+      "type": "object",
+      "title": "The Extra Schema",
+      "required": [
+      ],
+      "properties": {
+        "AIRCIRCID": {
+          "$ref": "JSONSchema_Codes.json#/properties/AIRCIRCID"
+        },
+        "ALTERNATORID": {
+          "$ref": "JSONSchema_Codes.json#/properties/ALTERNATORID"
+        },
+        "CELLID": {
+          "$ref": "JSONSchema_Codes.json#/properties/CELLID"
+        },
+        "CodeVMC": {
+          "$ref": "JSONSchema_Codes.json#/properties/CodeVMC"
+        },
+        "DEVID": {
+          "$ref": "JSONSchema_Codes.json#/properties/DEVID"
+        },
+        "DEVTYP": {
+          "$ref": "JSONSchema_Codes.json#/properties/DEVTYP"
+        },
+        "DOORID": {
+          "$ref": "JSONSchema_Codes.json#/properties/DOORID"
+        },
+        "DTC_FMI": {
+          "$ref": "JSONSchema_Codes.json#/properties/DTC_FMI"
+        },
+        "DTC_SPN": {
+          "$ref": "JSONSchema_Codes.json#/properties/DTC_SPN"
+        },
+        "DTC_SRC": {
+          "$ref": "JSONSchema_Codes.json#/properties/DTC_SRC"
+        },
+        "DTC_VRT": {
+          "$ref": "JSONSchema_Codes.json#/properties/DTC_VRT"
+        },
+        "INFOADD": {
+          "$ref": "JSONSchema_Codes.json#/properties/INFOADD"
+        },
+        "WHEELID": {
+          "$ref": "JSONSchema_Codes.json#/properties/WHEELID"
+        },
+        "WORNPERC": {
+          "$ref": "JSONSchema_Codes.json#/properties/WORNPERC"
+        }
+      }
+    },
+    "Header": {
+      "$ref": "JSONSchema_HeaderEvt.json#/properties/Header"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "Header": {
+            "properties": {
+              "CODE": { "const": "TTS0" }
+            },
+            "required": ["CODE"]
+          }
+        }
+      },
+      "then": {
+        "not": { "required": ["Extra"] }
+      },
+      "else": {
+        "required": ["Extra"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "Header": {
+            "properties": {
+              "CODE": { "const": "FE01" }
+            },
+            "required": ["CODE"]
+          }
+        },
+        "required": ["Header"]
+      },
+      "then": {
+        "required": ["Extra"],
+        "properties": {
+          "Extra": {
+            "required": ["ALTERNATORID"]
+          }
+        }
+      }
+    }
+  ]
+}

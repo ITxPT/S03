@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "The Root Schema event ON ",
+  "description": "ITxPT S03P01 TiGR Protocol - Event ON JSON Schema",
+  "required": [
+    "EvtON",
+    "Header"
+  ],
+  "properties": {
+    "EvtON": {
+      "type": "object",
+      "title": "The Evton Schema",
+      "required": [
+    ],
+      "properties": {
+        "SMX": {
+          "$ref": "JSONSchema_Codes.json#/properties/SMX"
+        },
+        "STP": {
+          "$ref": "JSONSchema_Codes.json#/properties/STP"
+        },
+        "TCA": {
+          "$ref": "JSONSchema_Codes.json#/properties/TCA"
+        },
+        "VB": {
+          "$ref": "JSONSchema_Codes.json#/properties/VB"
+        }
+      }
+    },
+    "Header": {
+      "$ref": "JSONSchema_HeaderEvt.json#/properties/Header"
+    }
+  }
+}

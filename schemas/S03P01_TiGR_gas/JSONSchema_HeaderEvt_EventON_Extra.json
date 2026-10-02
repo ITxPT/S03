@@ -1,16 +1,15 @@
 {
-  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "title": "The Root Schema event ON ",
   "description": "ITxPT S03P01 TiGR Protocol - Event ON JSON Schema",
   "required": [
     "EvtON",
-    "Extra",
     "Header"
   ],
   "properties": {
     "EvtON": {
-      "$ref": "JSONSchema_HeaderEvt_EventON_ITS_Fault.json#/properties/EvtON"
+      "$ref": "JSONSchema_HeaderEvt_EventON.json#/properties/EvtON"
     },
     "Extra": {
       "type": "object",
@@ -65,5 +64,46 @@
     "Header": {
       "$ref": "JSONSchema_HeaderEvt.json#/properties/Header"
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "Header": {
+            "properties": {
+              "CODE": { "const": "TTS0" }
+            },
+            "required": ["CODE"]
+          }
+        }
+      },
+      "then": {
+        "not": { "required": ["Extra"] }
+      },
+      "else": {
+        "required": ["Extra"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "Header": {
+            "properties": {
+              "CODE": { "const": "FE01" }
+            },
+            "required": ["CODE"]
+          }
+        },
+        "required": ["Header"]
+      },
+      "then": {
+        "required": ["Extra"],
+        "properties": {
+          "Extra": {
+            "required": ["ALTERNATORID"]
+          }
+        }
+      }
+    }
+  ]
 }

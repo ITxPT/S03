@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "title": "The Root Schema of event OFF",
   "description": "ITxPT S03P01 TiGR Protocol - Event OFF JSON Schema",

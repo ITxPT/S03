@@ -415,7 +415,7 @@
           "maximum": 64,
           "title": "The Ttid Schema",          
           "examples": [
-            2147483647
+            1
           ]
         },
         "TTSTS": {
@@ -424,7 +424,7 @@
           "maximum": 3,
           "title": "The Ttsts Schema",          
           "examples": [
-            2147483647
+            1
           ]
         },
         "PBCL": {
