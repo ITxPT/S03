@@ -10,13 +10,12 @@
   ],
   "properties": {
     "EvtON": {
-      "$ref": "JSONSchema_HeaderEvt_EventON.json#/properties/EvtON"
+      "$ref": "JSONSchema_HeaderEvt_EventON_ITS_Fault.json#/properties/EvtON"
     },
     "Extra": {
       "type": "object",
       "title": "The Extra Schema",
       "required": [
-        "CodeVMC"
       ],
       "properties": {
         "AIRCIRCID": {
