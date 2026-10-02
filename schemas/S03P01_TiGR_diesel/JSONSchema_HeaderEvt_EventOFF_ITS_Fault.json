@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "type": "object",
+  "title": "The Root Schema of event OFF",
+  "description": "ITxPT S03P01 TiGR Protocol - Event OFF JSON Schema",
+  "required": [
+    "EvtOFF",
+    "Header"
+  ],
+  "properties": {
+    "EvtOFF": {
+      "type": "object",
+      "title": "The Evtoff Schema",
+      "required": [
+        "PROGON",
+        "EVD"
+    ],
+      "properties": {
+        "EVD": {
+          "$ref": "JSONSchema_Codes.json#/properties/EVD"
+        },
+        "FOD": {
+          "$ref": "JSONSchema_Codes.json#/properties/FOD"
+        },
+        "PROGON": {
+          "$ref": "JSONSchema_Codes.json#/properties/PROGON"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Header": {
+      "$ref": "JSONSchema_HeaderEvt.json#/properties/Header"
+    }
+  }
+}

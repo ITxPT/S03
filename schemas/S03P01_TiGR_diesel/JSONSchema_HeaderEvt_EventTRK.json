@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "type": "object",
+  "title": "The Root Schema of Tracking event",
+  "description": "ITxPT S03P01 TiGR Protocol - Tracking event JSON Schema",
+  "required": [
+    "EvtTRK",
+    "Header"
+  ],
+  "properties": {
+    "EvtTRK": {
+      "type": "object",
+      "title": "The Evttrk Schema",
+      "required": [
+    ],
+      "properties": {
+        "ACP": {
+          "$ref": "JSONSchema_Codes.json#/properties/ACP"
+        },
+        "ACS": {
+          "$ref": "JSONSchema_Codes.json#/properties/ACS"
+        },
+        "APU": {
+          "$ref": "JSONSchema_Codes.json#/properties/APU"
+        },
+        "BEP1": {
+          "$ref": "JSONSchema_Codes.json#/properties/BEP1"
+        },
+        "BEP2": {
+          "$ref": "JSONSchema_Codes.json#/properties/BEP2"
+        },
+        "BEP3": {
+          "$ref": "JSONSchema_Codes.json#/properties/BEP3"
+        },
+        "BEP4": {
+          "$ref": "JSONSchema_Codes.json#/properties/BEP4"
+        },
+        "BEP5": {
+          "$ref": "JSONSchema_Codes.json#/properties/BEP5"
+        },
+        "BEP6": {
+          "$ref": "JSONSchema_Codes.json#/properties/BEP6"
+        },
+        "BRKP1": {
+          "$ref": "JSONSchema_Codes.json#/properties/BRKP1"
+        },
+        "BRKP2": {
+          "$ref": "JSONSchema_Codes.json#/properties/BRKP2"
+        },
+        "BRKP3": {
+          "$ref": "JSONSchema_Codes.json#/properties/BRKP3"
+        },
+        "BRKP4": {
+          "$ref": "JSONSchema_Codes.json#/properties/BRKP4"
+        },
+        "BRKSTS": {
+          "$ref": "JSONSchema_Codes.json#/properties/BRKSTS"
+        },
+        "CAC": {
+          "$ref": "JSONSchema_Codes.json#/properties/CAC"
+        },
+        "CHS": {
+          "$ref": "JSONSchema_Codes.json#/properties/CHS"
+        },
+        "CMT": {
+          "$ref": "JSONSchema_Codes.json#/properties/CMT"
+        },
+        "CPP": {
+          "$ref": "JSONSchema_Codes.json#/properties/CPP"
+        },
+        "CSE": {
+          "$ref": "JSONSchema_Codes.json#/properties/CSE"
+        },
+        "DCC": {
+          "$ref": "JSONSchema_Codes.json#/properties/DCC"
+        },
+        "EEC": {
+          "$ref": "JSONSchema_Codes.json#/properties/EEC"
+        },
+        "EET": {
+          "$ref": "JSONSchema_Codes.json#/properties/EET"
+        },
+        "EPC": {
+          "$ref": "JSONSchema_Codes.json#/properties/EPC"
+        },
+        "EXT": {
+          "$ref": "JSONSchema_Codes.json#/properties/EXT"
+        },
+        "GEAR": {
+          "$ref": "JSONSchema_Codes.json#/properties/GEAR"
+        },
+        "HBT": {
+          "$ref": "JSONSchema_Codes.json#/properties/HBT"
+        },
+        "HEP": {
+          "$ref": "JSONSchema_Codes.json#/properties/HEP"
+        },
+        "ITT": {
+          "$ref": "JSONSchema_Codes.json#/properties/ITT"
+        },
+        "IVT": {
+          "$ref": "JSONSchema_Codes.json#/properties/IVT"
+        },
+        "LBT": {
+          "$ref": "JSONSchema_Codes.json#/properties/LBT"
+        },
+        "LMC": {
+          "$ref": "JSONSchema_Codes.json#/properties/LMC"
+        },
+        "LMC2": {
+          "$ref": "JSONSchema_Codes.json#/properties/LMC2"
+        },
+        "LRO": {
+          "$ref": "JSONSchema_Codes.json#/properties/LRO"
+        },
+        "PAC": {
+          "$ref": "JSONSchema_Codes.json#/properties/PAC"
+        },
+        "PBR": {
+          "$ref": "JSONSchema_Codes.json#/properties/PBR"
+        },
+        "PRO": {
+          "$ref": "JSONSchema_Codes.json#/properties/PRO"
+        },
+        "RANGE": {
+          "$ref": "JSONSchema_Codes.json#/properties/RANGE"
+        },
+        "RPM": {
+          "$ref": "JSONSchema_Codes.json#/properties/RPM"
+        },
+        "RPT": {
+          "$ref": "JSONSchema_Codes.json#/properties/RPT"
+        },
+        "SMX": {
+          "$ref": "JSONSchema_Codes.json#/properties/SMX"
+        },
+        "SOC": {
+          "$ref": "JSONSchema_Codes.json#/properties/SOC"
+        },
+        "SPC": {
+          "$ref": "JSONSchema_Codes.json#/properties/SPC"
+        },
+        "STP": {
+          "$ref": "JSONSchema_Codes.json#/properties/STP"
+        },
+        "TBC": {
+          "$ref": "JSONSchema_Codes.json#/properties/TBC"
+        },
+        "TBV": {
+          "$ref": "JSONSchema_Codes.json#/properties/TBV"
+        },
+        "TMX": {
+          "$ref": "JSONSchema_Codes.json#/properties/TMX"
+        },
+        "TRM": {
+          "$ref": "JSONSchema_Codes.json#/properties/TRM"
+        },
+        "TRO": {
+          "$ref": "JSONSchema_Codes.json#/properties/TRO"
+        },
+        "VAC": {
+          "$ref": "JSONSchema_Codes.json#/properties/VAC"
+        },
+        "VB": {
+          "$ref": "JSONSchema_Codes.json#/properties/VB"
+        },
+        "VHM": {
+          "$ref": "JSONSchema_Codes.json#/properties/VHM"
+        },
+        "VSE": {
+          "$ref": "JSONSchema_Codes.json#/properties/VSE"
+        },
+        "HBRC": {
+          "$ref": "JSONSchema_Codes.json#/properties/HBRC"
+        },
+        "WST": {
+          "$ref": "JSONSchema_Codes.json#/properties/WST"
+        },
+        "RDS": {
+          "$ref": "JSONSchema_Codes.json#/properties/RDS"
+        },
+        "SIN": {
+          "$ref": "JSONSchema_Codes.json#/properties/SIN"
+        },
+        "LAC": {
+          "$ref": "JSONSchema_Codes.json#/properties/LAC"
+        },
+        "LOA": {
+          "$ref": "JSONSchema_Codes.json#/properties/LOA"
+        },
+        "SPR": {
+          "$ref": "JSONSchema_Codes.json#/properties/SPR"
+        },
+        "RCT": {
+          "$ref": "JSONSchema_Codes.json#/properties/RCT"
+        },
+        "TCC": {
+          "$ref": "JSONSchema_Codes.json#/properties/TCC"
+        },
+        "PSL": {
+          "$ref": "JSONSchema_Codes.json#/properties/PSL"
+        },
+        "IPCH": {
+          "$ref": "JSONSchema_Codes.json#/properties/IPCH"
+        },
+        "IPCK": {
+          "$ref": "JSONSchema_Codes.json#/properties/IPCK"
+        },
+        "PSOC": {
+          "$ref": "JSONSchema_Codes.json#/properties/PSOC"
+        },
+        "PSOH": {
+          "$ref": "JSONSchema_Codes.json#/properties/PSOH"
+        },
+        "HADP": {
+          "$ref": "JSONSchema_Codes.json#/properties/HADP"
+        },
+        "HACP": {
+          "$ref": "JSONSchema_Codes.json#/properties/HACP"
+        },
+        "PTT": {
+          "$ref": "JSONSchema_Codes.json#/properties/PTT"
+        },
+        "PBCL": {
+          "$ref": "JSONSchema_Codes.json#/properties/PBCL"
+        },
+        "EPF": {
+          "$ref": "JSONSchema_Codes.json#/properties/EPF"
+        },
+        "HBC": {
+          "$ref": "JSONSchema_Codes.json#/properties/HBC"
+        },
+        "LBC": {
+          "$ref": "JSONSchema_Codes.json#/properties/LBC"
+        },
+        "PCBC": {
+          "$ref": "JSONSchema_Codes.json#/properties/PCBC"
+        },
+        "PCBS": {
+          "$ref": "JSONSchema_Codes.json#/properties/PCBS"
+        },
+        "MSOH": {
+          "$ref": "JSONSchema_Codes.json#/properties/MSOH"
+        }
+      }
+    },
+    "Header": {
+      "$ref": "JSONSchema_HeaderEvt.json#/properties/Header"
+    }
+  }
+}
