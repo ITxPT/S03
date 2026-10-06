@@ -31,5 +31,6 @@
     "Header": {
       "$ref": "JSONSchema_HeaderEvt.json#/properties/Header"
     }
-  }
+  },
+  "additionalProperties": false
 }
