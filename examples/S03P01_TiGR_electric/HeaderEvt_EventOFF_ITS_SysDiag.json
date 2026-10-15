@@ -1,0 +1,32 @@
+{
+    "EvtOFF": {
+        "EVD": 253,
+        "FOD": 3260,
+        "PROGON": 1289
+    },
+    "Header": {
+        "CODE": "DIB3",
+        "DST": 240636,
+        "EVTDATE": 1492714346,
+        "TRSDATE": 1492714353,
+        "GPSInfo": {
+            "ALT": 260,
+            "DOP": 25,
+            "GNSSType": "GLONASS",
+            "HEAD": 90.5,
+            "LAT": 2932530,
+            "LON": 155604,
+            "NUMSAT": 7
+        },
+        "ID": 4,
+        "PROG": 1345,
+        "SENDDATE": 1492714386,
+        "SERVERNAME": "ABC",
+        "SRVDATE": 1492714366,
+        "TIMEZONE": "UTC+01:00",
+        "TYPE": "EVENT_OFF",
+        "VERS": "3.0.0",
+        "VIN": "1HGCM82633A123456"
+    },
+    "_comment": "ITxPT S03P01 TiGR Protocol - SysDiag OFF event JSON Example (electric)"
+}

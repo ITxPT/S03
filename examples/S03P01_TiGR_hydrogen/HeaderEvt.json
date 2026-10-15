@@ -1,0 +1,28 @@
+{
+    "Header": {
+        "CODE": "EC10",
+        "DST": 240636,
+        "EVTDATE": 1492714346,
+        "TRSDATE": 1492714353,
+        "GPSInfo": {
+            "ALT": 260,
+            "DOP": 25,
+            "GNSSType": "GLONASS",
+            "HEAD": 90.5,
+            "LAT": 2932530,
+            "LON": 155604,
+            "NUMSAT": 7
+        },
+        "ID": 4,
+        "PROG": 1345,
+        "SENDDATE": 1492714386,
+        "SERVERNAME": "ABC",
+        "SRVDATE": 1492714366,
+        "TIMEZONE": "UTC+01:00",
+        "TYPE": "HEADER_ONLY",
+        "VERS": "3.0.0",
+        "VIN": "1HGCM82633A123456",
+        "BID": "BID1234567890"
+    },
+    "_comment": "ITxPT S03P01 TiGR Protocol - Header only event JSON Example (hydrogen)"
+}
